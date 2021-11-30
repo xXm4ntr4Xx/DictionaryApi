@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(204, 204, 204);
+}
+#container{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  border: 3px solid rgb(158, 158, 158);
+}
+
+#input-box{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+#paragraph{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+#wordChoose{
+  align-items: center;
+  
+}
+#definition{
+  text-align: center;
+  font-size:30px ;
+}
+
+#definitionOfTheWord{
+  text-align: center;
+  font-size: 20px;
+  background-color: crimson;
+}
+#definitionOfTheWord1{
+  text-align: center;
+  font-size: 20px;
+  background-color: aquamarine;
+}
+#definitionOfTheWord2{
+  text-align: center;
+  font-size: 20px;
+  background-color: darkgray;
+}
+#wordDefinition{
+  font-family: Arial, Helvetica, sans-serif;
+}
