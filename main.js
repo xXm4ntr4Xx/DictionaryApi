@@ -20,7 +20,8 @@ async function dictionaryApi(){
 }  
 
 
-function buttonInput(){   
+function buttonInput(e){   
+  e.preventDefault();
   dictionaryApi();//call the api function when the button function is called
 };
 

@@ -14,8 +14,11 @@
 <h1>Dictionary</h1>
 
 <div id="input-box">
-  <input type="text" id="wordChoose"  value ="" placeholder="Type the word here" required></input>
-  <button  id="submit" onclick="buttonInput()">Search</button>
+  <form onsubmit="buttonInput()">
+     <input type="text" id="wordChoose"  value ="" placeholder="Type the word here" required></input>
+    <button  id="submit">Search</button>
+  </form>
+ 
 </div>
 <div id="paragraph">
   <p id="definition">Definition:</p>
