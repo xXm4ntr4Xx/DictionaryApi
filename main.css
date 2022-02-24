@@ -1,29 +1,26 @@
-body{
-  background-color: rgb(204, 204, 204);
+body{ 
+  background-image: url('https://unsplash.com/photos/POMpXtcVYHo');
 }
 #container{
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  width: 100%;
   padding: 10px;
 }
 
 h1{
   text-align: center;
-  border: 3px solid rgb(158, 158, 158);
 }
 
 
 #input-box{
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
 }
 #paragraph{
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  width: 100%;
   padding: 10px;
 }
 #wordChoose{
