@@ -11,7 +11,7 @@ let clickButton = document.querySelector("#submit");
 
 
 async function dictionaryApi(){ 
-  word = inputText.value //assignt the text we wrote in the input button to a variable
+  word = inputText.value //assignt the text we wrote in the input text to a variable
   const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);//1-retrive the data
   const data = await response.json();//2-trasform the data into json file
   wordDefinition = data[0].meanings[0].definitions[0].definition ;//select the element we need in the nested array Api
