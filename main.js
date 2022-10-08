@@ -16,7 +16,7 @@ async function dictionaryApi(){
   const data = await response.json();//2-trasform the data into json file
   wordDefinition = data[0].meanings[0].definitions[0].definition ;//select the element we need in the nested array Api
   paragraph.innerHTML = wordDefinition;// assign the phrase to the paragraph
-  inputText.value = "";//clean the input alue after the submit
+  inputText.value = "";//clean the input value after the submit
 }  
 
 
